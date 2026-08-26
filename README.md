@@ -1,7 +1,9 @@
 # Hola 👋 — I'm Hermann
 
-**Software Engineer (Junior) — full-stack TypeScript, Python, and audio/low-level curious.**
-Monterrey, MX · Open to remote & on-site roles
+**Software Engineering student — 8th (final) semester at Tecnológico de Monterrey.**
+Monterrey, MX · Open to junior roles, internships & remote
+
+Full-stack TypeScript, Python, and audio/low-level curious. 60+ repos, 14 live deployments — I ship things end-to-end.
 
 I build products end-to-end: from 3DS homebrew in C to production e-commerce, ML pipelines, and AI apps with real users.
 
