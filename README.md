@@ -8,7 +8,7 @@ I'd rather build things that people actually use than talk about what I can buil
 
 ## Projects
 
-- **folk-park** — original wavetable synth + composition assistant.
+- **folk-park** — original wavetable synth + composition assistant. *(source on request — private repo.)*
 
   <img src="https://img.shields.io/badge/C%2B%2B-00599C?style=flat-square&logo=cplusplus&logoColor=white" height="20" alt="C++"> <img src="https://img.shields.io/badge/JUCE-8D6E63?style=flat-square" height="20" alt="JUCE"> <img src="https://img.shields.io/badge/VST3-6A1B9A?style=flat-square" height="20" alt="VST3">
 
@@ -54,7 +54,7 @@ I'd rather build things that people actually use than talk about what I can buil
 
   <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" height="20" alt="TypeScript"> <img src="https://img.shields.io/badge/MediaPipe-0AC9B0?style=flat-square" height="20" alt="MediaPipe">
 
-- [GateGenius](https://github.com/HermannPR/gategenius) — HackMTY 2025
+- **GateGenius** — AI airline-catering platform, built in 24 h for HackMTY 2025. *(source on request — private repo.)*
 
   <img src="https://img.shields.io/badge/HackMTY_2025-7C3AED?style=flat-square" height="20" alt="HackMTY 2025"> <img src="https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB" height="20" alt="React"> <img src="https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white" height="20" alt="Tailwind CSS"> <img src="https://img.shields.io/badge/Vite-646CFF?style=flat-square&logo=vite&logoColor=white" height="20" alt="Vite">
 
@@ -62,4 +62,4 @@ I'd rather build things that people actually use than talk about what I can buil
 
 Junior / entry-level software engineering roles, internships, and remote work. I'm strongest on full-stack TypeScript (React/Next.js) and I'm happy to go deep on audio, DSP, or lower-level C/C++ projects. If something here is useful to you, or you want to work together, get in touch.
 
-[GitHub](https://github.com/HermannPR) · [Best works](https://github.com/HermannPR/best-works)
+[GitHub](https://github.com/HermannPR) · [Best works](https://hermannpr.github.io/best-works/)
