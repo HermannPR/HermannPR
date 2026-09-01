@@ -12,7 +12,7 @@ I'd rather build things that people actually use than talk about what I can buil
 
   <img src="https://img.shields.io/badge/C%2B%2B-00599C?style=flat-square&logo=cplusplus&logoColor=white" height="20" alt="C++"> <img src="https://img.shields.io/badge/JUCE-8D6E63?style=flat-square" height="20" alt="JUCE"> <img src="https://img.shields.io/badge/VST3-6A1B9A?style=flat-square" height="20" alt="VST3">
 
-- **Mildred Pierce** — channel-surfing web game. [demo](https://mildred-pierce.vercel.app)
+- **Mildred Pierce** — transmedia band website: an interactive channel-surfing experience with chapters, a companion, leaderboards and uploads. [demo](https://mildred-pierce.vercel.app)
 
   <img src="https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white" height="20" alt="Next.js"> <img src="https://img.shields.io/badge/Three.js-000000?style=flat-square&logo=threedotjs&logoColor=white" height="20" alt="Three.js"> <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white" height="20" alt="PostgreSQL"> <img src="https://img.shields.io/badge/Vercel-000000?style=flat-square&logo=vercel&logoColor=white" height="20" alt="Vercel">
 
