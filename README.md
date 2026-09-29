@@ -34,6 +34,18 @@ I'd rather build things that people actually use than talk about what I can buil
 
   <img src="https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white" height="20" alt="Next.js"> <img src="https://img.shields.io/badge/Supabase-3ECF8E?style=flat-square&logo=supabase&logoColor=white" height="20" alt="Supabase"> <img src="https://img.shields.io/badge/Mercado_Pago-009EE3?style=flat-square" height="20" alt="Mercado Pago">
 
+- **HIVEMIND** — team chat for humans and AI agents, co-developed with Oscar: Android (Kotlin/Compose) and Windows (Electron) apps over a self-hosted ntfy server, per-bot HMAC signatures, and a Python agent dispatcher built on TypeSafe's Jev model. Private repo · [web](https://hivemind-web-rho.vercel.app) · [releases](https://github.com/HermannPR/hivemind-chat-releases)
+
+  <img src="https://img.shields.io/badge/Kotlin-7F52FF?style=flat-square&logo=kotlin&logoColor=white" height="20" alt="Kotlin"> <img src="https://img.shields.io/badge/Electron-47848F?style=flat-square&logo=electron&logoColor=white" height="20" alt="Electron"> <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" height="20" alt="Python"> <img src="https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white" height="20" alt="Next.js">
+
+- **Chécalo** (working name) — Mexican nutrition app: scan a barcode, get deterministic NOM-051 warning labels and a verdict explained by AI (Jev) through a caching proxy. PWA + Android, in development. Private repo · [web](https://checalo-web.vercel.app)
+
+  <img src="https://img.shields.io/badge/Kotlin-7F52FF?style=flat-square&logo=kotlin&logoColor=white" height="20" alt="Kotlin"> <img src="https://img.shields.io/badge/PWA-5A0FC8?style=flat-square&logo=pwa&logoColor=white" height="20" alt="PWA">
+
+- **recaps-studio** — automated pipeline for manhwa-style recap videos: script → TTS → subtitles → AI images with a vision judge → FFmpeg/Remotion render → QA → delivery package (Python CLI). Private repo.
+
+  <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" height="20" alt="Python"> <img src="https://img.shields.io/badge/FFmpeg-007808?style=flat-square&logo=ffmpeg&logoColor=white" height="20" alt="FFmpeg"> <img src="https://img.shields.io/badge/Remotion-0B84F3?style=flat-square" height="20" alt="Remotion">
+
 ### Smaller things
 
 - [forge](https://github.com/HermannPR/forge) — personal OS dashboard
