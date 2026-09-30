@@ -10,13 +10,17 @@ I'd rather build things people actually use than talk about what I could build. 
 
 ## Startups
 
-All three started in September 2026 and are early: working software, no users or revenue to report yet.
+All three started in September 2026 and are early: working software, no users or revenue to report yet. Two of them are built on **[TypeSafe's Jev](https://openrouter.ai/typesafe)** (a decision model, via OpenRouter) for agent orchestration and explainable decisions.
 
-- **HIVEMIND** (co-founder, private pilot): team chat for people and AI agents. Android (Kotlin/Jetpack Compose) and Windows (Electron) apps on a self-hosted ntfy server, HMAC-SHA256 signed messages, one-time beta invite codes, and a Python dispatcher that routes each message or task to an AI agent through an LLM on OpenRouter (under US$0.0001 per message). 104 automated tests on the Windows client. Private repo · [website](https://hivemind-web-rho.vercel.app) · [downloads](https://github.com/HermannPR/hivemind-chat-releases)
+- **HIVEMIND** (co-founder, private pilot): team chat for people and AI agents. Android (Kotlin/Jetpack Compose) and Windows (Electron) apps on a self-hosted ntfy server, HMAC-SHA256 signed messages, one-time beta invite codes and 104 automated tests on the Windows client.
+  - **Agent orchestration with Jev:** a Python dispatcher (jev-lider) asks Jev which AI agent should take each message or task, under US$0.0001 per message with a US$0.50 daily cap, through our own Jev gateway running on an Android phone used as a server.
+  - **Jev-guided context compaction** for long-running Claude Code bots: a fork of [fast-jev-compaction](https://github.com/tamaratran/fast-jev-compaction) (MIT) extended with a token budget, decay and a searchable archive so nothing is lost. On a real session it keeps ~57K tokens where the original kept ~229K, in 1.5 s.
+
+  Private repo · [website](https://hivemind-web-rho.vercel.app) · [downloads](https://github.com/HermannPR/hivemind-chat-releases)
 
   <img src="https://img.shields.io/badge/Kotlin-7F52FF?style=flat-square&logo=kotlin&logoColor=white" height="20" alt="Kotlin"> <img src="https://img.shields.io/badge/Electron-47848F?style=flat-square&logo=electron&logoColor=white" height="20" alt="Electron"> <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" height="20" alt="Python">
 
-- **Chécalo** (founder, in development): nutrition app for Mexico. Scan a barcode (Open Food Facts) and get the NOM-051 warning labels computed with deterministic rules checked against the DOF; an LLM only explains the verdict, behind a proxy with a per-product cache, so AI cost grows with the catalog and not with users. PWA plus an Android app (Kotlin, CameraX, ML Kit). Private repo.
+- **Chécalo** (founder, in development): nutrition app for Mexico. Scan a barcode (Open Food Facts) and get the NOM-051 warning labels computed with deterministic rules checked against the DOF. **Jev** then gives an explainable verdict with its confidence and flags contradictions between ingredients and the nutrition table (every number still comes from the rules), behind a proxy with a per-product cache, so AI cost grows with the catalog and not with users. PWA plus an Android app (Kotlin, CameraX, ML Kit). Private repo.
 
   <img src="https://img.shields.io/badge/Kotlin-7F52FF?style=flat-square&logo=kotlin&logoColor=white" height="20" alt="Kotlin"> <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black" height="20" alt="JavaScript"> <img src="https://img.shields.io/badge/PWA-5A0FC8?style=flat-square&logo=pwa&logoColor=white" height="20" alt="PWA">
 
