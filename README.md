@@ -18,6 +18,9 @@ All three started in September 2026 and are early: working software, no users or
 
   Private repo · [website](https://hivemind-web-rho.vercel.app) · [downloads](https://github.com/HermannPR/hivemind-chat-releases)
 
+  [![HIVEMIND promo video (42 s)](https://hermannpr.github.io/files/hivemind-promo-poster.jpg)](https://hermannpr.github.io/files/hivemind-promo-720p.mp4)
+  [Watch the 42 s promo video](https://hermannpr.github.io/files/hivemind-promo-720p.mp4)
+
   <img src="https://img.shields.io/badge/Kotlin-7F52FF?style=flat-square&logo=kotlin&logoColor=white" height="20" alt="Kotlin"> <img src="https://img.shields.io/badge/Electron-47848F?style=flat-square&logo=electron&logoColor=white" height="20" alt="Electron"> <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" height="20" alt="Python">
 
 - **Chécalo** (founder, in development): nutrition app for Mexico. Scan a barcode (Open Food Facts) and get the NOM-051 warning labels computed with deterministic rules checked against the DOF. **Jev** then gives an explainable verdict with its confidence and flags contradictions between ingredients and the nutrition table (every number still comes from the rules), behind a proxy with a per-product cache, so AI cost grows with the catalog and not with users. PWA plus an Android app (Kotlin, CameraX, ML Kit). Private repo.
